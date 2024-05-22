@@ -1,0 +1,10 @@
+[package]
+name = "PixelRendererRayTracing"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num = "0.4.3"
+byteorder = "1.4"
+pixel_renderer_model_helper = { path = "../PixelRendererModelHelper" }
+pixel_renderer_image_helper = { path = "../PixelRendererImageHelper" }
