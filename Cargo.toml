@@ -3,6 +3,15 @@ name = "PixelRendererRayTracing"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name = "raytracer"
+path = "src/lib.rs"
+crate-type = ["staticlib"]
+
+[[bin]]
+name = "raytracer"
+path = "src/main.rs"
+
 [dependencies]
 num = "0.4.3"
 byteorder = "1.4"
